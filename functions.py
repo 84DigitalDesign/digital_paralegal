@@ -4,6 +4,9 @@ from mailmerge import MailMerge
 from datetime import date
 import sys
 
+#having trouble getting the submit button to work correctly.
+#The tkinter should alow me to get() the information from 
+
 def submit_b ():
     py_buyer = sys.grantor_entry.get()
     py_seller = grantee_entry.get()
@@ -14,6 +17,9 @@ def submit_b ():
     py_seller_property = property_entry.get()
     TMS_entry.get()
     purchase_entry.get()
+
+    
+#this one works, I just need to be able to get the information from the UI once entered.
 
 def create_firpta():
     template = "Draft Templates\FIRPTA template1.docx"
